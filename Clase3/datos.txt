@@ -1,0 +1,4 @@
+Messi,10
+Ronaldo,7
+Neymar,11
+Mbappe,9
