@@ -1,0 +1,7 @@
+paciente{
+    receta{
+        medicamento: "Paracetamol",
+        dosis: "500mg",
+        frecuencia: "Cada 8 horas"
+    }
+}
