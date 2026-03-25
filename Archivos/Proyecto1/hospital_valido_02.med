@@ -1,0 +1,60 @@
+HOSPITAL {
+
+    PACIENTES {
+        paciente: "Valentina Sofía Cruz" [edad: 7, tipo_sangre: "A+", habitacion: 201],
+        paciente: "Sebastián Andrés Mejía" [edad: 12, tipo_sangre: "O+", habitacion: 202],
+        paciente: "Camila Nathalie Ortiz" [edad: 5, tipo_sangre: "B+", habitacion: 203],
+        paciente: "Josué Emmanuel Reyes" [edad: 9, tipo_sangre: "A-", habitacion: 204],
+        paciente: "Gabriela Estefanía Ruano" [edad: 3, tipo_sangre: "O+", habitacion: 205],
+        paciente: "Diego Fabricio Monzón" [edad: 14, tipo_sangre: "AB+", habitacion: 206],
+        paciente: "Karla Valeria Monterroso" [edad: 8, tipo_sangre: "B-", habitacion: 207],
+        paciente: "Óscar Guillermo Cifuentes" [edad: 11, tipo_sangre: "O-", habitacion: 208],
+        paciente: "Andrea Michelle López" [edad: 6, tipo_sangre: "A+", habitacion: 209],
+        paciente: "Renato Alejandro Barrios" [edad: 13, tipo_sangre: "AB-", habitacion: 210],
+        paciente: "Daniela Fernanda Ajú" [edad: 4, tipo_sangre: "O+", habitacion: 211],
+        paciente: "Cristian Eduardo Tzoc" [edad: 10, tipo_sangre: "A+", habitacion: 212],
+        paciente: "Mariana Isabel Sajquiy" [edad: 7, tipo_sangre: "B+", habitacion: 213],
+        paciente: "Kevin Rodrigo Xicará" [edad: 15, tipo_sangre: "O+", habitacion: 214],
+    };
+
+    MEDICOS {
+        medico: "Dr. Héctor Adolfo Morales" [especialidad: PEDIATRIA, codigo: "MED-010"],
+        medico: "Dra. Silvia Marisol Castellanos" [especialidad: PEDIATRIA, codigo: "MED-011"],
+        medico: "Dr. Julio César Aguilar" [especialidad: MEDICINA_GENERAL, codigo: "MED-012"],
+        medico: "Dra. Rosa Elvira Pimentel" [especialidad: NEUROLOGIA, codigo: "MED-013"],
+        medico: "Dr. Alejandro José Mazariegos" [especialidad: CIRUGIA, codigo: "MED-014"],
+    };
+
+    CITAS {
+        cita: "Valentina Sofía Cruz" con "Dr. Héctor Adolfo Morales" [fecha: 2025-05-05, hora: 08:00],
+        cita: "Sebastián Andrés Mejía" con "Dra. Silvia Marisol Castellanos" [fecha: 2025-05-05, hora: 08:30],
+        cita: "Camila Nathalie Ortiz" con "Dr. Héctor Adolfo Morales" [fecha: 2025-05-05, hora: 09:00],
+        cita: "Josué Emmanuel Reyes" con "Dr. Julio César Aguilar" [fecha: 2025-05-06, hora: 10:00],
+        cita: "Gabriela Estefanía Ruano" con "Dra. Silvia Marisol Castellanos" [fecha: 2025-05-06, hora: 10:30],
+        cita: "Diego Fabricio Monzón" con "Dra. Rosa Elvira Pimentel" [fecha: 2025-05-06, hora: 11:00],
+        cita: "Karla Valeria Monterroso" con "Dr. Héctor Adolfo Morales" [fecha: 2025-05-07, hora: 07:30],
+        cita: "Óscar Guillermo Cifuentes" con "Dr. Alejandro José Mazariegos" [fecha: 2025-05-07, hora: 09:30],
+        cita: "Andrea Michelle López" con "Dra. Silvia Marisol Castellanos" [fecha: 2025-05-07, hora: 10:00],
+        cita: "Renato Alejandro Barrios" con "Dr. Julio César Aguilar" [fecha: 2025-05-08, hora: 08:00],
+        cita: "Daniela Fernanda Ajú" con "Dr. Héctor Adolfo Morales" [fecha: 2025-05-08, hora: 09:00],
+        cita: "Cristian Eduardo Tzoc" con "Dra. Rosa Elvira Pimentel" [fecha: 2025-05-08, hora: 11:30],
+        cita: "Mariana Isabel Sajquiy" con "Dr. Julio César Aguilar" [fecha: 2025-05-09, hora: 08:30],
+        cita: "Kevin Rodrigo Xicará" con "Dr. Alejandro José Mazariegos" [fecha: 2025-05-09, hora: 14:00],
+    };
+
+    DIAGNOSTICOS {
+        diagnostico: "Valentina Sofía Cruz" [condicion: "Asma Bronquial", medicamento: "Salbutamol 2mg", dosis: CADA_8_HORAS],
+        diagnostico: "Sebastián Andrés Mejía" [condicion: "Diabetes Tipo 1", medicamento: "Insulina NPH 10UI", dosis: DIARIA],
+        diagnostico: "Camila Nathalie Ortiz" [condicion: "Otitis Media Aguda", medicamento: "Amoxicilina 250mg", dosis: CADA_8_HORAS],
+        diagnostico: "Josué Emmanuel Reyes" [condicion: "Faringoamigdalitis Bacteriana", medicamento: "Penicilina V 500mg", dosis: CADA_8_HORAS],
+        diagnostico: "Gabriela Estefanía Ruano" [condicion: "Bronquiolitis Aguda", medicamento: "Adrenalina nebulizada 1mg", dosis: CADA_8_HORAS],
+        diagnostico: "Diego Fabricio Monzón" [condicion: "Epilepsia Focal", medicamento: "Levetiracetam 500mg", dosis: CADA_12_HORAS],
+        diagnostico: "Karla Valeria Monterroso" [condicion: "Anemia Ferropénica", medicamento: "Sulfato Ferroso 150mg", dosis: DIARIA],
+        diagnostico: "Óscar Guillermo Cifuentes" [condicion: "Hernia Inguinal", medicamento: "Ibuprofeno 200mg", dosis: CADA_8_HORAS],
+        diagnostico: "Andrea Michelle López" [condicion: "Varicela", medicamento: "Aciclovir 200mg", dosis: CADA_8_HORAS],
+        diagnostico: "Renato Alejandro Barrios" [condicion: "Hipertensión Esencial", medicamento: "Enalapril 5mg", dosis: DIARIA],
+        diagnostico: "Daniela Fernanda Ajú" [condicion: "Desnutrición Moderada", medicamento: "Zinc 10mg", dosis: DIARIA],
+        diagnostico: "Cristian Eduardo Tzoc" [condicion: "Cefalea Tensional", medicamento: "Paracetamol 500mg", dosis: CADA_8_HORAS],
+    };
+
+};

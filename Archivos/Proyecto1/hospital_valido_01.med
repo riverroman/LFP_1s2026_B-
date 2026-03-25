@@ -1,0 +1,57 @@
+HOSPITAL {
+
+    PACIENTES {
+        paciente: "María Fernanda López" [edad: 34, tipo_sangre: "A+", habitacion: 101],
+        paciente: "Carlos Enrique Mendoza" [edad: 62, tipo_sangre: "O-", habitacion: 204],
+        paciente: "Sofía Alejandra Ramírez" [edad: 29, tipo_sangre: "B+", habitacion: 310],
+        paciente: "Pedro Antonio Castillo" [edad: 71, tipo_sangre: "AB-", habitacion: 415],
+        paciente: "Lucía Beatriz Herrera" [edad: 45, tipo_sangre: "O+", habitacion: 502],
+        paciente: "Roberto Josué Fuentes" [edad: 38, tipo_sangre: "A-", habitacion: 118],
+        paciente: "Ana Patricia Morales" [edad: 55, tipo_sangre: "B-", habitacion: 223],
+        paciente: "Diego Alejandro Vásquez" [edad: 27, tipo_sangre: "AB+", habitacion: 307],
+        paciente: "Elena Cristina Sandoval" [edad: 49, tipo_sangre: "O+", habitacion: 412],
+        paciente: "Marcos Vinicio Pérez" [edad: 66, tipo_sangre: "A+", habitacion: 519],
+        paciente: "Isabel Josefina Ruiz" [edad: 41, tipo_sangre: "B+", habitacion: 130],
+        paciente: "Fernando Augusto Leiva" [edad: 58, tipo_sangre: "O-", habitacion: 225],
+    };
+
+    MEDICOS {
+        medico: "Dr. Roberto Juárez" [especialidad: CARDIOLOGIA, codigo: "MED-001"],
+        medico: "Dra. Ana Solís" [especialidad: NEUROLOGIA, codigo: "MED-002"],
+        medico: "Dr. Luis Herrera" [especialidad: PEDIATRIA, codigo: "MED-003"],
+        medico: "Dra. Carmen Vega" [especialidad: CIRUGIA, codigo: "MED-004"],
+        medico: "Dr. Miguel Ángel Torres" [especialidad: MEDICINA_GENERAL, codigo: "MED-005"],
+        medico: "Dra. Patricia Alonzo" [especialidad: ONCOLOGIA, codigo: "MED-006"],
+        medico: "Dr. Ernesto Figueroa" [especialidad: CARDIOLOGIA, codigo: "MED-007"],
+    };
+
+    CITAS {
+        cita: "María Fernanda López" con "Dr. Roberto Juárez" [fecha: 2025-04-10, hora: 08:00],
+        cita: "Carlos Enrique Mendoza" con "Dra. Ana Solís" [fecha: 2025-04-10, hora: 09:30],
+        cita: "Sofía Alejandra Ramírez" con "Dr. Luis Herrera" [fecha: 2025-04-10, hora: 10:00],
+        cita: "Pedro Antonio Castillo" con "Dr. Roberto Juárez" [fecha: 2025-04-11, hora: 08:30],
+        cita: "Lucía Beatriz Herrera" con "Dra. Carmen Vega" [fecha: 2025-04-11, hora: 11:00],
+        cita: "Roberto Josué Fuentes" con "Dr. Miguel Ángel Torres" [fecha: 2025-04-12, hora: 07:30],
+        cita: "Ana Patricia Morales" con "Dra. Patricia Alonzo" [fecha: 2025-04-12, hora: 14:00],
+        cita: "Diego Alejandro Vásquez" con "Dr. Ernesto Figueroa" [fecha: 2025-04-13, hora: 09:00],
+        cita: "Elena Cristina Sandoval" con "Dra. Ana Solís" [fecha: 2025-04-13, hora: 10:30],
+        cita: "Marcos Vinicio Pérez" con "Dr. Roberto Juárez" [fecha: 2025-04-14, hora: 08:00],
+        cita: "Isabel Josefina Ruiz" con "Dra. Carmen Vega" [fecha: 2025-04-14, hora: 13:00],
+        cita: "Fernando Augusto Leiva" con "Dra. Patricia Alonzo" [fecha: 2025-04-15, hora: 15:30],
+    };
+
+    DIAGNOSTICOS {
+        diagnostico: "María Fernanda López" [condicion: "Hipertensión Arterial", medicamento: "Losartán 50mg", dosis: DIARIA],
+        diagnostico: "Carlos Enrique Mendoza" [condicion: "Diabetes Tipo 2", medicamento: "Metformina 850mg", dosis: CADA_12_HORAS],
+        diagnostico: "Pedro Antonio Castillo" [condicion: "Insuficiencia Cardiaca", medicamento: "Furosemida 40mg", dosis: DIARIA],
+        diagnostico: "Lucía Beatriz Herrera" [condicion: "Cáncer de Mama Etapa II", medicamento: "Tamoxifeno 20mg", dosis: DIARIA],
+        diagnostico: "Roberto Josué Fuentes" [condicion: "Gastritis Crónica", medicamento: "Omeprazol 20mg", dosis: CADA_12_HORAS],
+        diagnostico: "Ana Patricia Morales" [condicion: "Linfoma No Hodgkin", medicamento: "Rituximab 500mg", dosis: SEMANAL],
+        diagnostico: "Diego Alejandro Vásquez" [condicion: "Arritmia Ventricular", medicamento: "Amiodarona 200mg", dosis: DIARIA],
+        diagnostico: "Elena Cristina Sandoval" [condicion: "Migraña Crónica", medicamento: "Topiramato 100mg", dosis: CADA_12_HORAS],
+        diagnostico: "Marcos Vinicio Pérez" [condicion: "Angina Inestable", medicamento: "Nitroglicerina 5mg", dosis: CADA_8_HORAS],
+        diagnostico: "Isabel Josefina Ruiz" [condicion: "Apendicitis Aguda", medicamento: "Ceftriaxona 1g", dosis: CADA_12_HORAS],
+        diagnostico: "Fernando Augusto Leiva" [condicion: "Cáncer de Colon Etapa III", medicamento: "Oxaliplatino 85mg", dosis: SEMANAL],
+    };
+
+};

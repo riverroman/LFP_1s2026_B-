@@ -1,0 +1,65 @@
+HOSPITAL {
+        %%%####$$$$$$$#@#@@
+    PACIENTES {
+        @ paciente: "Luis Alberto Guerra" [edad: 45, tipo_sangre: "A+", habitacion: 101],
+        @ paciente: "Rosa Emilia Tzep" [edad: 38, tipo_sangre: "C+", habitacion: 102],
+        @ paciente: "Mario Estuardo Boc" [edad: 52, tipo_sangre: "O+", habitacion: 103],
+        @ paciente: "Flor de María Ixpatá" [edad: 29, tipo_sangre: "O#", habitacion: 104],
+        @ paciente: "Carlos Mendoza" [edad: 61, tipo_sangre: "B+", habitacion: 105],
+        @ paciente: "Ana Sofía Tec" [edad: 33, tipo_sangre: "AB+", habitacion: 106],
+        @ paciente: "Víctor Hugo Sajché" [edad: 47, tipo_sangre: "A-", habitacion: 107],
+        @ paciente: "Marta Lucía Choc" [edad: 55, tipo_sangre: "O-", habitacion: 108],
+        @ paciente: "José Bernardo Cucul" [edad: 40, tipo_sangre: "B-", habitacion: 109],
+        @ paciente: "Elena Patricia López" [edad: 36, tipo_sangre: "O+", habitacion: 110],
+        @ paciente: "Pedro Ixquiac" [edad: 70, tipo_sangre: "A+", habitacion: 111],
+        @ paciente: "Ángela Beatriz Chun" [edad: 28, tipo_sangre: "AB-", habitacion: 112],
+        @ paciente: "Reinaldo Jacinto Batz" [edad: 64, tipo_sangre: "O+", habitacion: 113],
+        @ paciente: "Mirna Concepción&Pirir" [edad: 42, tipo_sangre: "B+", habitacion: 114],
+        @ paciente: "Héctor Leonel Poz" [edad: 57, tipo_sangre: "O+", habitacion: 115],
+    };
+        ""##$$%%% ^^^^^^^^^^^&&&&&&&&&&&&@@@@@@@@@@!!!!!!!!!!
+    MEDICOS {
+        # medico: "Dr. Samuel Esteban Bixcul" [especialidad: CARDIOLOGIA, codigo: "MED-030"],
+        # medico: "Dra. Patricia Lourdes Xoy" [especialidad: NEUROLOGIA, codigo: "MED-031"],
+        # medico: "Dr. Osmar Vinicio Toj" [especialidad: CARDIOLOGIX, codigo: "MED-032"],
+        # medico: "Dra. Wendy Carolina Cac" [especialidad: PEDIATRIA, codigo: "MED-033"],
+        # medico: "Dr. Rogelio Simón Tzul" [especialidad: CIRUGIA, codigo: "MED-034"],
+        # medico: "Dra. Nancy Esperanza Bamac" [especialidad: MEDICINA_GENERAL, codigo: "MED-035"],
+        # medico: "Dr. Augusto Caal" [especialidad: ONCOLOGIA, codigo: "MED-036"],
+        # medico: "Dra. Blanca Yolanda Ixcot" [especialidad: NEUROLOGIA, codigo: "MED-037"],
+    };
+    %%% &&&&&&&&&&&&&&***************** $$$$$$$$$$$
+    CITAS {
+        ^ cita: "Luis Alberto Guerra" con "Dr. Samuel Esteban Bixcul" [fecha: 2025-13-10, hora: 08:00],
+        ^ cita: "Rosa Emilia Tzep" con "Dra. Patricia Lourdes@Xoy" [fecha: 2025-04-10, hora: 25:30],
+        ^ cita: "Mario Estuardo Boc" con "Dr. Osmar Vinicio Toj" [fecha: 2025-04-11, hora: 09:00],
+        ^ cita: "Flor de María Ixpatá" con "Dra. Wendy Carolina Cac" [fecha: 2025-04-00, hora: 10:00],
+        ^ cita: "Carlos Mendoza" con "Dr. Rogelio#Simón Tzul" [fecha: 2025-04-12, hora: 60:00],
+        ^ cita: "Ana Sofía Tec" con "Dra. Nancy Esperanza Bamac" [fecha: 2025-04-12, hora: 11:00],
+        ^ cita: "Víctor Hugo Sajché" con "Dr. Augusto$Caal" [fecha: 2025-00-15, hora: 14:30],
+        ^ cita: "Marta Lucía Choc" con "Dra. Blanca Yolanda Ixcot" [fecha: 2025-04-13, hora: 08:30],
+        ^ cita: "José Bernardo Cucul" con "Dr. Samuel Esteban Bixcul" [fecha: 2025-04-13, hora: 09:30],
+        ^ cita: "Elena Patricia^López" con "Dra. Wendy Carolina Cac" [fecha: 2025-04-14, hora: 24:01],
+        ^ cita: "Pedro%Ixquiac" con "Dra. Nancy Esperanza Bamac" [fecha: 2025-04-14, hora: 10:00],
+        ^ cita: "Ángela Beatriz Chun" con "Dr. Augusto$Caal" [fecha: 2025-04-15, hora: 11:00],
+        ^ cita: "Reinaldo Jacinto Batz" con "Dra. Blanca Yolanda Ixcot" [fecha: 2025-04-32, hora: 07:30],
+        ^ cita: "Mirna Concepción&Pirir" con "Dr. Samuel Esteban Bixcul" [fecha: 2025-04-15, hora: 09:00],
+        ^ cita: "Héctor Leonel Poz" con "Dra. Patricia Lourdes@Xoy" [fecha: 2025-04-16, hora: 13:00],
+    };
+        %%%        ^^^^&&&&&&&&&&**************##$#$$%##@!@
+    DIAGNOSTICOS {
+        ! diagnostico: "Luis Alberto Guerra" [condicion: "Hipertensión Arterial", medicamento: "Amlodipino 5mg", dosis: DIARIA],
+        ! diagnostico: "Rosa Emilia Tzep" [condicion: "Neumonía Bacteriana", medicamento: "Azitromicina 500mg", dosis: DIARIA],
+        ! diagnostico: "Mario Estuardo Boc" [condicion: "Cardiopatía Isquémica", medicamento: "Aspirina 100mg", dosis: DIARIA],
+        ! diagnostico: "Flor de María Ixpatá" [condicion: "Otitis Externa", medicamento: "Ciprofloxacino gotas", dosis: CADA_8_HORAS],
+        ! diagnostico: "Ana Sofía Tec" [condicion: "Lumbalgia Crónica", medicamento: "Meloxicam^15mg", dosis: DIARIA],
+        ! diagnostico: "Marta Lucía Choc" [condicion: "Cefalea Migrañosa", medicamento: "Sumatriptán 50mg", dosis: CADA_12_HORAS],
+        ! diagnostico: "José Bernardo Cucul" [condicion: "Gastritis Erosiva", medicamento: "Pantoprazol#40mg", dosis: CADA_12_HORAS],
+        ! diagnostico: "Elena Patricia^López" [condicion: "Artritis Reumatoide", medicamento: "Metotrexato 10mg", dosis: SEMANAL],
+        ! diagnostico: "Ángela Beatriz Chun" [condicion: "Hipoglucemia Reactiva", medicamento: "Glucosa$50%", dosis: CADA_8_HORAS],
+        ! diagnostico: "Reinaldo Jacinto Batz" [condicion: "Insuficiencia Venosa", medicamento: "Diosmina 450mg", dosis: CADA_12_HORAS],
+        ! diagnostico: "Mirna Concepción&Pirir" [condicion: "Quiste Ovárico", medicamento: "Progesterona 200mg", dosis: DIARIA],
+        ! diagnostico: "Héctor Leonel Poz" [condicion: "EPOC Moderada", medicamento: "Tiotropio@18mcg", dosis: DIARIA],
+    };
+    @@@@@@########!!!!!!!!!!!!@@@@$#@!#@!!!!!!!#!#!@#!$!$#!##$*$&*$&$*&@*&*@&!*&!@*!&
+};

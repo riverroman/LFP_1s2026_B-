@@ -1,0 +1,70 @@
+HOSPITAL {
+    PACIENTES {
+        paciente: "Dolores Margarita Xitumul" [edad: 60, tipo_sangre: "O+", habitacion: 401],
+        paciente: "Rigoberto Efraín~Choguaj" [edad: 48, tipo_sangre: "A+", habitacion: 402],
+        paciente: "Juana Francisca Toc" [edad: 35, tipo_sangre: "ZZ+", habitacion: 403],
+        paciente: "Nery Amilcar Cux" [edad: 53, tipo_sangre: "O-", habitacion: 404],
+        paciente: "Amelia Rosa|Chávez" [edad: 22, tipo_sangre: "B+", habitacion: 405],
+        paciente: "Elfego Domingo Quicol" [edad: 77, tipo_sangre: "AB+", habitacion: 406],
+        paciente: "Candelaria!Ajpop" [edad: 41, tipo_sangre: "A-", habitacion: 407],
+        paciente: "Aura Leticia Pixabaj" [edad: 33, tipo_sangre: "B-", habitacion: 408],
+        paciente: "Timoteo Asunción Bocel" [edad: 66, tipo_sangre: "O+", habitacion: 409],
+        paciente: "Esperanza Virginia=Cucul" [edad: 29, tipo_sangre: "O+", habitacion: 410],
+        paciente: "Maximino Esteban Raxón" [edad: 74, tipo_sangre: "A+", habitacion: 411],
+        paciente: "Florinda Bernabela Tzoc" [edad: 50, tipo_sangre: "B+", habitacion: 412],
+        paciente: "Venancio?Tuyuc" [edad: 38, tipo_sangre: "AB-", habitacion: 413],
+        paciente: "Leocadia Remigia Cuc" [edad: 55, tipo_sangre: "O-", habitacion: 414],
+        paciente: "Anastasio Cornelio Tzep" [edad: 63, tipo_sangre: "A+", habitacion: 415],
+        paciente: "Rosalinda Perfecta Caal" [edad: 44, tipo_sangre: "XX-", habitacion: 416],
+    };
+
+    MEDICOS {
+        medico: "Dr. Humberto~Cú Xol" [especialidad: CARDIOLOGIA, codigo: "MED-040"],
+        medico: "Dra. Zoraida Antonieta Bac" [especialidad: NEUROLOGIA, codigo: "MED-041"],
+        medico: "Dr. Clemente Fortunato!Pop" [especialidad: PEDIATRIA, codigo: "MED-042"],
+        medico: "Dra. Edelmira Concepción Coc" [especialidad: CIRUGIA, codigo: "MED-043"],
+        medico: "Dr. Tranquilino|Gómez" [especialidad: ONCOLOGIA, codigo: "MED-044"],
+        medico: "Dra. Imelda Crescencia Yat" [especialidad: CARDIOHOSPITAL, codigo: "MED-045"],
+        medico: "Dr. Nemesio=Pérez Bol" [especialidad: MEDICINA_GENERAL, codigo: "MED-046"],
+        medico: "Dra. Celestina Aquilina Quej" [especialidad: NEUROLOGIA, codigo: "MED-047"],
+    };
+
+    CITAS {
+        cita: "Dolores Margarita Xitumul" con "Dr. Humberto~Cú Xol" [fecha: 2025-07-10, hora: 08:00],
+        cita: "Rigoberto Efraín~Choguaj" con "Dra. Zoraida Antonieta Bac" [fecha: 2025-07-10, hora: 09:00],
+        cita: "Juana Francisca Toc" con "Dr. Clemente Fortunato!Pop" [fecha: 2025-07-10, hora: 09:00],
+        cita: "Nery Amilcar Cux" con "Dra. Edelmira Concepción Coc" [fecha: 2025-07-11, hora: 07:00],
+        cita: "Amelia Rosa|Chávez" con "Dr. Tranquilino|Gómez" [fecha: 2025-07-11, hora: 10:00],
+        cita: "Elfego Domingo Quicol" con "Dra. Imelda Crescencia Yat" [fecha: 2025-07-11, hora: 11:00],
+        cita: "Candelaria!Ajpop" con "Dr. Nemesio=Pérez Bol" [fecha: 2025-07-12, hora: 08:30],
+        cita: "Aura Leticia Pixabaj" con "Dra. Celestina Aquilina Quej" [fecha: 2025-07-12, hora: 09:30],
+        cita: "Timoteo Asunción Bocel" con "Dr. Humberto~Cú Xol" [fecha: 2025-07-12, hora: 09:00],
+        cita: "Esperanza Virginia=Cucul" con "Dra. Zoraida Antonieta Bac" [fecha: 2025-07-13, hora: 10:00],
+        cita: "Maximino Esteban Raxón" con "Dr. Clemente Fortunato!Pop" [fecha: 2025-07-13, hora: 11:00],
+        cita: "Florinda Bernabela Tzoc" con "Dra. Edelmira Concepción Coc" [fecha: 2025-07-14, hora: 08:00],
+        cita: "Venancio?Tuyuc" con "Dr. Tranquilino|Gómez" [fecha: 2025-07-14, hora: 13:00],
+        cita: "Leocadia Remigia Cuc" con "Dra. Imelda Crescencia Yat" [fecha: 2025-07-15, hora: 14:00],
+        cita: "Anastasio Cornelio Tzep" con "Dr. Nemesio=Pérez Bol" [fecha: 2025-07-15, hora: 09:00],
+        cita: "Rosalinda Perfecta Caal" con "Dra. Celestina Aquilina Quej" [fecha: 2025-07-16, hora: 10:30],
+    };
+
+    DIAGNOSTICOS {
+        diagnostico: "Dolores Margarita Xitumul" [condicion: "Cardiopatía Hipertensiva", medicamento: "Captopril 25mg", dosis: CADA_8_HORAS],
+        diagnostico: "Rigoberto Efraín~Choguaj" [condicion: "Neuropatía Periférica", medicamento: "Gabapentina$300mg", dosis: CADA_8_HORAS],
+        diagnostico: "Juana Francisca Toc" [condicion: "Peritonitis Aguda", medicamento: "Metronidazol 500mg", dosis: CADA_8_HORAS],
+        diagnostico: "Nery Amilcar Cux" [condicion: "Trauma Abdominal", medicamento: "Morfina^10mg", dosis: CADA_8_HORAS],
+        diagnostico: "Amelia Rosa|Chávez" [condicion: "Síndrome de Ovario Poliquístico", medicamento: "Metformina 500mg", dosis: CADA_12_HORAS],
+        diagnostico: "Elfego Domingo Quicol" [condicion: "Insuficiencia Cardiaca Congestiva", medicamento: "Digoxina 0.25mg", dosis: DIARIA],
+        diagnostico: "Candelaria!Ajpop" [condicion: "Trastorno Bipolar", medicamento: "Litio#300mg", dosis: CADA_8_HORAS],
+        diagnostico: "Aura Leticia Pixabaj" [condicion: "Artritis Juvenil", medicamento: "Naproxeno 250mg", dosis: CADA_12_HORAS],
+        diagnostico: "Timoteo Asunción Bocel" [condicion: "Demencia Senil", medicamento: "Donepezilo 5mg", dosis: DIARIA],
+        diagnostico: "Esperanza Virginia=Cucul" [condicion: "Depresión Mayor", medicamento: "Sertralina%50mg", dosis: DIARIA],
+        diagnostico: "Maximino Esteban Raxón" [condicion: "Parkinson Avanzado", medicamento: "Levodopa 250mg", dosis: CADA_8_HORAS],
+        diagnostico: "Florinda Bernabela Tzoc" [condicion: "Colitis Ulcerosa, medicamento: "Mesalazina 800mg", dosis: CADA_8_HORAS],
+        diagnostico: "Venancio?Tuyuc" [condicion: "Cáncer de Próstata Etapa IV", medicamento: "Enzalutamida^160mg", dosis: DIARIA],
+        diagnostico: "Leocadia Remigia Cuc" [condicion: "Hipotiroidismo Severo", medicamento: "Levotiroxina 100mcg", dosis: DIARIA],
+        diagnostico: "Anastasio Cornelio Tzep" [condicion: "Diabetes Tipo 2 Descompensada", medicamento: "Insulina Glargina 20UI", dosis: DIARIA],
+        diagnostico: "Rosalinda Perfecta Caal" [condicion: "Esquizofrenia Paranoide", medicamento: "Risperidona@2mg", dosis: CADA_12_HORAS],
+    };
+
+};

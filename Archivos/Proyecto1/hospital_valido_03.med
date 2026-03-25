@@ -1,0 +1,67 @@
+HOSPITAL {
+
+    PACIENTES {
+        paciente: "Jorge Alfredo Montepeque" [edad: 67, tipo_sangre: "A+", habitacion: 301],
+        paciente: "Martha Cecilia Godínez" [edad: 53, tipo_sangre: "AB-", habitacion: 302],
+        paciente: "Raúl Humberto Sánchez" [edad: 44, tipo_sangre: "O+", habitacion: 303],
+        paciente: "Norma Patricia Tzunux" [edad: 39, tipo_sangre: "B+", habitacion: 304],
+        paciente: "Guillermo Isaac Contreras" [edad: 72, tipo_sangre: "A-", habitacion: 305],
+        paciente: "Lidia Esperanza Orozco" [edad: 61, tipo_sangre: "O-", habitacion: 306],
+        paciente: "Armando Rafael Sicán" [edad: 48, tipo_sangre: "B+", habitacion: 307],
+        paciente: "Gloria Marina Ajanel" [edad: 35, tipo_sangre: "O+", habitacion: 308],
+        paciente: "Rodolfo Enrique Cúmes" [edad: 57, tipo_sangre: "AB+", habitacion: 309],
+        paciente: "Teresa de Jesús Batz" [edad: 64, tipo_sangre: "A+", habitacion: 310],
+        paciente: "Ernesto Fabián Pisquiy" [edad: 50, tipo_sangre: "O+", habitacion: 311],
+        paciente: "Consuelo Beatriz Chávez" [edad: 43, tipo_sangre: "B-", habitacion: 312],
+        paciente: "Álvaro Enrique Alvarado" [edad: 76, tipo_sangre: "A+", habitacion: 313],
+        paciente: "Sandra Maribel Tuquer" [edad: 31, tipo_sangre: "O+", habitacion: 314],
+        paciente: "Haroldo Vinicio Esquit" [edad: 59, tipo_sangre: "AB-", habitacion: 315],
+    };
+
+    MEDICOS {
+        medico: "Dra. Verónica Susana Ixcot" [especialidad: ONCOLOGIA, codigo: "MED-020"],
+        medico: "Dr. Fredy Armando Sapón" [especialidad: ONCOLOGIA, codigo: "MED-021"],
+        medico: "Dra. Blanca Estela Coyoy" [especialidad: CIRUGIA, codigo: "MED-022"],
+        medico: "Dr. Marvin Otoniel Cux" [especialidad: CIRUGIA, codigo: "MED-023"],
+        medico: "Dra. Ingrid Paola Saquec" [especialidad: CARDIOLOGIA, codigo: "MED-024"],
+        medico: "Dr. Byron Estuardo Cholotío" [especialidad: NEUROLOGIA, codigo: "MED-025"],
+        medico: "Dra. Karina Lissette Xajpot" [especialidad: MEDICINA_GENERAL, codigo: "MED-026"],
+    };
+
+    CITAS {
+        cita: "Jorge Alfredo Montepeque" con "Dra. Verónica Susana Ixcot" [fecha: 2025-06-02, hora: 07:00],
+        cita: "Martha Cecilia Godínez" con "Dra. Blanca Estela Coyoy" [fecha: 2025-06-02, hora: 08:00],
+        cita: "Raúl Humberto Sánchez" con "Dr. Fredy Armando Sapón" [fecha: 2025-06-02, hora: 09:00],
+        cita: "Norma Patricia Tzunux" con "Dra. Karina Lissette Xajpot" [fecha: 2025-06-02, hora: 10:00],
+        cita: "Guillermo Isaac Contreras" con "Dra. Ingrid Paola Saquec" [fecha: 2025-06-03, hora: 07:30],
+        cita: "Lidia Esperanza Orozco" con "Dra. Verónica Susana Ixcot" [fecha: 2025-06-03, hora: 09:00],
+        cita: "Armando Rafael Sicán" con "Dr. Marvin Otoniel Cux" [fecha: 2025-06-03, hora: 10:30],
+        cita: "Gloria Marina Ajanel" con "Dra. Blanca Estela Coyoy" [fecha: 2025-06-04, hora: 08:00],
+        cita: "Rodolfo Enrique Cúmes" con "Dr. Byron Estuardo Cholotío" [fecha: 2025-06-04, hora: 09:30],
+        cita: "Teresa de Jesús Batz" con "Dra. Verónica Susana Ixcot" [fecha: 2025-06-04, hora: 11:00],
+        cita: "Ernesto Fabián Pisquiy" con "Dr. Fredy Armando Sapón" [fecha: 2025-06-05, hora: 07:00],
+        cita: "Consuelo Beatriz Chávez" con "Dra. Karina Lissette Xajpot" [fecha: 2025-06-05, hora: 10:00],
+        cita: "Álvaro Enrique Alvarado" con "Dra. Ingrid Paola Saquec" [fecha: 2025-06-05, hora: 11:30],
+        cita: "Sandra Maribel Tuquer" con "Dr. Marvin Otoniel Cux" [fecha: 2025-06-06, hora: 08:30],
+        cita: "Haroldo Vinicio Esquit" con "Dr. Byron Estuardo Cholotío" [fecha: 2025-06-06, hora: 13:00],
+    };
+
+    DIAGNOSTICOS {
+        diagnostico: "Jorge Alfredo Montepeque" [condicion: "Cáncer de Pulmón Etapa III", medicamento: "Cisplatino 75mg", dosis: SEMANAL],
+        diagnostico: "Martha Cecilia Godínez" [condicion: "Tumor Abdominal Benigno", medicamento: "Ketorolaco 30mg", dosis: CADA_8_HORAS],
+        diagnostico: "Raúl Humberto Sánchez" [condicion: "Leucemia Mieloide Crónica", medicamento: "Imatinib 400mg", dosis: DIARIA],
+        diagnostico: "Norma Patricia Tzunux" [condicion: "Hipotiroidismo", medicamento: "Levotiroxina 50mcg", dosis: DIARIA],
+        diagnostico: "Guillermo Isaac Contreras" [condicion: "Fibrilación Auricular", medicamento: "Warfarina 5mg", dosis: DIARIA],
+        diagnostico: "Lidia Esperanza Orozco" [condicion: "Cáncer de Ovario Etapa II", medicamento: "Carboplatino 300mg", dosis: SEMANAL],
+        diagnostico: "Armando Rafael Sicán" [condicion: "Colelitiasis", medicamento: "Ácido Ursodesoxicólico 300mg", dosis: CADA_12_HORAS],
+        diagnostico: "Gloria Marina Ajanel" [condicion: "Hernia Umbilical", medicamento: "Diclofenaco 50mg", dosis: CADA_8_HORAS],
+        diagnostico: "Rodolfo Enrique Cúmes" [condicion: "Esclerosis Múltiple", medicamento: "Interferón Beta 30mcg", dosis: SEMANAL],
+        diagnostico: "Teresa de Jesús Batz" [condicion: "Cáncer de Mama Etapa I", medicamento: "Anastrozol 1mg", dosis: DIARIA],
+        diagnostico: "Ernesto Fabián Pisquiy" [condicion: "Mieloma Múltiple", medicamento: "Bortezomib 1.3mg", dosis: SEMANAL],
+        diagnostico: "Consuelo Beatriz Chávez" [condicion: "Gastroenteritis Infecciosa", medicamento: "Metronidazol 500mg", dosis: CADA_8_HORAS],
+        diagnostico: "Álvaro Enrique Alvarado" [condicion: "Insuficiencia Renal Crónica", medicamento: "Furosemida 40mg", dosis: CADA_12_HORAS],
+        diagnostico: "Sandra Maribel Tuquer" [condicion: "Endometriosis", medicamento: "Dienogest 2mg", dosis: DIARIA],
+        diagnostico: "Haroldo Vinicio Esquit" [condicion: "Tumor Cerebral Glioblastoma", medicamento: "Temozolomida 150mg", dosis: DIARIA],
+    };
+
+};
