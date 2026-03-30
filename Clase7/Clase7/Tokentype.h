@@ -9,9 +9,7 @@ enum class TokenType{
     DATE,       // para fechas en formato específico
     TIME,       // para horas en formato específico
     ID_CODE,    // para códigos de identificación
-    SYMBOL,     // para símbolos como operadores, paréntesis,
-    RESERVED,   // para las palabras reservadas
-    ENUM_VAL,   // CARDIOLOGIA, DIARIA, etc.
+    SYMBOL,     // para símbolos como operadores, paréntesis, etc
 };
 
 // clase Token para representar un token con su tipo y valor

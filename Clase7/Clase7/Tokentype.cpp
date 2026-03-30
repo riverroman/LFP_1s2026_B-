@@ -19,8 +19,6 @@ std::string Token::getTypeString() const {
     case TokenType::TIME: return "TIME";
     case TokenType::ID_CODE: return "ID_CODE";
     case TokenType::SYMBOL: return "SYMBOL";
-    case TokenType::RESERVED:  return "RESERVED";
-    case TokenType::ENUM_VAL:  return "ENUM_VAL";
     default: return "UNKNOWN";
     }
 }

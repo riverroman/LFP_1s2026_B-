@@ -98,20 +98,17 @@ void MainWindow::on_btnGenerarReportes_clicked()
         QMessageBox::warning(this, "Aviso", "Primero carga un archivo.");
         return;
     }
-
     std::string input = contenidoArchivo.toStdString();
     LexicalAnalyzer lexer(input);
     lexer.analyze();
 
     ReportGenerator::generateTokenReport(lexer.tokens, "token_report.html");
     ReportGenerator::generateErrorReport(lexer.errors, "error_report.html");
+    ReportGenerator::generateStatisticsReport(lexer.tokens, "statistics_report.html"); // ← nuevo
 
-    QDesktopServices::openUrl(QUrl::fromLocalFile(
-        QDir::currentPath() + "/token_report.html"
-        ));
-    QDesktopServices::openUrl(QUrl::fromLocalFile(
-        QDir::currentPath() + "/error_report.html"
-        ));
+    QDesktopServices::openUrl(QUrl::fromLocalFile(QDir::currentPath() + "/token_report.html"));
+    QDesktopServices::openUrl(QUrl::fromLocalFile(QDir::currentPath() + "/error_report.html"));
+    QDesktopServices::openUrl(QUrl::fromLocalFile(QDir::currentPath() + "/statistics_report.html")); // ← nuevo
 
-    QMessageBox::information(this, "Listo", "Reportes generados y abiertos en el navegador.");
+    QMessageBox::information(this, "Listo", "3 reportes generados y abiertos en el navegador.");
 }

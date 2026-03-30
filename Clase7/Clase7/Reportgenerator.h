@@ -14,4 +14,8 @@ public:
         const std::vector<LexicalError>& errors,
         const std::string& filename
         );
+    static void generateStatisticsReport(
+        const std::vector<Token>& tokens,
+        const std::string& filename
+        );
 };

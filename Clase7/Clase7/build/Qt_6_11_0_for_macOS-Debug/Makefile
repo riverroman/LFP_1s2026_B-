@@ -961,7 +961,7 @@ compiler_clean: compiler_lrelease_clean compiler_rcc_clean compiler_moc_header_c
 
 ####### Compile
 
-Lexicalanalyzer.o: ../../Lexicalanalyzer.cpp ../../LexicalAnalyzer.h \
+Lexicalanalyzer.o: ../../Lexicalanalyzer.cpp ../../Lexicalanalyzer.h \
 		../../Token.h \
 		../../ErrorManager.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Lexicalanalyzer.o ../../Lexicalanalyzer.cpp
