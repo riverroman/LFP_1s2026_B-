@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/*
+  Variables globales CSS
+*/  
+:root{
+  --fontPrincipal : "Poppins", sans-serif;
+}
+
+body{
+  font-family: var(--fontPrincipal);
+}
