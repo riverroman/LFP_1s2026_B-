@@ -1,0 +1,26 @@
+TABLERO "Sistema de Ventas Q2-2026" {
+    COLUMNA "Backlog" {
+        tarea: "Analizar requerimientos del cliente" [prioridad: ALTA, responsable: "Andrea", fecha_limite: 2026-05-15],
+        tarea: "Diseñar base de datos" [prioridad: ALTA, responsable: "Roberto", fecha_limite: 2026-05-20],
+        tarea: "Documentar API REST" [prioridad: MEDIA, responsable: "Lucia@Dev", fecha_limite: 2026-05-25],
+        tarea: "Configurar servidor de pruebas" [prioridad: BAJA, responsable: "Marco$Admin", fecha_limite: 2026-05-28],
+    };
+    COLUMNA "En Desarrollo" {
+        tarea: "Implementar módulo de autenticación" [prioridad: ALTA, responsable: "Andrea", fecha_limite: 2026-06-01],
+        tarea: "Crear endpoints de productos" [prioridad: ALTA, responsable: "Roberto", fecha_limite: 2026-06-05],
+        tarea: "Integrar pasarela de pago #Stripe" [prioridad: ALTA, responsable: "Carlos&Backend", fecha_limite: 2026-06-10],
+        tarea: "Diseñar pantallas UI" [prioridad: MEDIA, responsable: "Valeria", fecha_limite: 2026-06-08],
+        tarea: "Pruebas unitarias módulo usuarios" [prioridad: MEDIA, responsable: "Marco", fecha_limite: 2026-06-12],
+    };
+    COLUMNA "En Revisión" {
+        tarea: "Revisar código de autenticación" [prioridad: ALTA, responsable: "Lucia", fecha_limite: 2026-05-30],
+        tarea: "Validar flujo de compra" [prioridad: ALTA, responsable: "Team~QA", fecha_limite: 2026-06-03],
+        tarea: "Corregir bug #4471 en carrito" [prioridad: MEDIA, responsable: "Roberto", fecha_limite: 2026-05-29],
+    };
+    COLUMNA "Completado" {
+        tarea: "Setup inicial del proyecto" [prioridad: BAJA, responsable: "Carlos", fecha_limite: 2026-04-10],
+        tarea: "Configurar GitHub Actions" [prioridad: BAJA, responsable: "Marco", fecha_limite: 2026-04-15],
+        tarea: "Definir arquitectura del sistema" [prioridad: ALTA, responsable: "Andrea", fecha_limite: 2026-04-20],
+        tarea: "Levantar entorno Docker" [prioridad: MEDIA, responsable: "Carlos^Ops", fecha_limite: 2026-04-25],
+    };
+};
