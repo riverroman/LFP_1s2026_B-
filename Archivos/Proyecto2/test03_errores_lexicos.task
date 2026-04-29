@@ -1,0 +1,36 @@
+TABLERO "App Móvil - Proyecto Finanzas" {
+    COLUMNA "Ideas y Diseño" {
+        tarea: "Wireframes pantalla principal" [prioridad: ALTA, responsable: "Diseñador UX", fecha_limite: 2026-05-11],
+        tarea: "Definir paleta de colores" [prioridad: BAJA, responsable: "Diseñador UX", fecha_limite: 2026-05-13],
+        tarea: "Prototipar flujo de onboarding" [prioridad: MEDIA, responsable: "Fernanda#UX", fecha_limite: 2026-05-16],
+        tarea: "Revisión con stakeholders" [prioridad: ALTA, responsable: "PM&Gerencia", fecha_limite: 2026-05-20],
+        tarea: "Crear guía de estilos" [prioridad: MEDIA, responsable: "Diseñador UX", fecha_limite: 2026-05-23],
+    };
+    COLUMNA "Sprint 1" {
+        tarea: "Login con biometría" [prioridad: ALTA, responsable: "iOS@Dev", fecha_limite: 2026-05-28],
+        tarea: "Registro de usuario nuevo" [prioridad: ALTA, responsable: "AndroidDev", fecha_limite: 2026-05-28],
+        tarea: "Pantalla de dashboard principal" [prioridad: ALTA, responsable: "Flutter~Dev", fecha_limite: 2026-06-02],
+        tarea: "Conexión con API de banco" [prioridad: ALTA, responsable: "Backend", fecha_limite: 2026-06-04],
+        tarea: "Almacenamiento seguro tokens JWT" [prioridad: ALTA, responsable: "Seguridad$Team", fecha_limite: 2026-06-06],
+        tarea: "Gráfica de gastos mensuales" [prioridad: MEDIA, responsable: "Frontend", fecha_limite: 2026-06-09],
+        tarea: "Notificación de gasto inusual" [prioridad: MEDIA, responsable: "Backend", fecha_limite: 2026-06-11],
+    };
+    COLUMNA "Sprint 2" {
+        tarea: "Módulo de presupuestos" [prioridad: ALTA, responsable: "Fernanda", fecha_limite: 2026-06-20],
+        tarea: "Exportar reportes a PDF|Excel" [prioridad: MEDIA, responsable: "Backend^API", fecha_limite: 2026-06-22],
+        tarea: "Historial de transacciones" [prioridad: MEDIA, responsable: "Frontend", fecha_limite: 2026-06-25],
+        tarea: "Sincronizar múltiples cuentas" [prioridad: ALTA, responsable: "IntegrationDev", fecha_limite: 2026-06-28],
+        tarea: "Soporte multi-moneda" [prioridad: BAJA, responsable: "DevTeam!Internacional", fecha_limite: 2026-07-01],
+    };
+    COLUMNA "Testing" {
+        tarea: "Pruebas en dispositivos iOS" [prioridad: ALTA, responsable: "QA~iOS", fecha_limite: 2026-07-05],
+        tarea: "Pruebas en dispositivos Android" [prioridad: ALTA, responsable: "QA Android", fecha_limite: 2026-07-05],
+        tarea: "Pruebas de penetración seguridad" [prioridad: ALTA, responsable: "PenTester", fecha_limite: 2026-07-08],
+        tarea: "Revisión de accesibilidad" [prioridad: MEDIA, responsable: "QA&A11y", fecha_limite: 2026-07-10],
+    };
+    COLUMNA "Lanzamiento" {
+        tarea: "Publicar en App Store" [prioridad: ALTA, responsable: "AppleAccount", fecha_limite: 2026-07-20],
+        tarea: "Publicar en Play Store" [prioridad: ALTA, responsable: "GoogleAccount", fecha_limite: 2026-07-20],
+        tarea: "Campaña de marketing digital" [prioridad: MEDIA, responsable: "Marketing@Team", fecha_limite: 2026-07-25],
+    };
+};

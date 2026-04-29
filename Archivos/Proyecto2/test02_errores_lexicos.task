@@ -1,0 +1,28 @@
+TABLERO "Plataforma Educativa - Semestre 1" {
+    COLUMNA "Por Iniciar" {
+        tarea: "Diseñar curriculum de cursos" [prioridad: ALTA, responsable: "Profesora_Ana", fecha_limite: 2026-05-12],
+        tarea: "Crear material audiovisual" [prioridad: MEDIA, responsable: "Estudio&Media", fecha_limite: 2026-05-18],
+        tarea: "Definir métricas de evaluación" [prioridad: MEDIA, responsable: "Dirección", fecha_limite: 2026-05-22],
+        tarea: "Registrar 200 estudiantes nuevos" [prioridad: ALTA, responsable: "Admin|Portal", fecha_limite: 2026-05-30],
+        tarea: "Adquirir licencias software" [prioridad: BAJA, responsable: "Compras", fecha_limite: 2026-06-01],
+    };
+    COLUMNA "En Progreso" {
+        tarea: "Desarrollar módulo de quizzes" [prioridad: ALTA, responsable: "DevTeam#3", fecha_limite: 2026-05-25],
+        tarea: "Migrar contenido antiguo" [prioridad: MEDIA, responsable: "Soporte", fecha_limite: 2026-05-28],
+        tarea: "Integrar sistema de videoconferencia" [prioridad: ALTA, responsable: "Técnico~Red", fecha_limite: 2026-06-05],
+        tarea: "Implementar foro estudiantil" [prioridad: MEDIA, responsable: "BackendDev", fecha_limite: 2026-06-08],
+        tarea: "Crear dashboard de progreso" [prioridad: ALTA, responsable: "UX@Designer", fecha_limite: 2026-06-10],
+        tarea: "Habilitar notificaciones push" [prioridad: BAJA, responsable: "MobileTeam", fecha_limite: 2026-06-15],
+    };
+    COLUMNA "Bloqueado" {
+        tarea: "Obtener certificación SSL dominio" [prioridad: ALTA, responsable: "IT$Admin", fecha_limite: 2026-05-10],
+        tarea: "Actualizar servidor de producción" [prioridad: ALTA, responsable: "Infraestructura", fecha_limite: 2026-05-14],
+        tarea: "Resolver fallo en BD Oracle!!" [prioridad: ALTA, responsable: "DBA_Senior", fecha_limite: 2026-05-08],
+    };
+    COLUMNA "Finalizado" {
+        tarea: "Levantar ambiente de staging" [prioridad: MEDIA, responsable: "DevOps", fecha_limite: 2026-04-05],
+        tarea: "Definir stack tecnológico" [prioridad: ALTA, responsable: "Arquitecto", fecha_limite: 2026-04-10],
+        tarea: "Aprobar presupuesto 2026" [prioridad: ALTA, responsable: "Dirección", fecha_limite: 2026-04-12],
+        tarea: "Contratar equipo de desarrollo" [prioridad: ALTA, responsable: "RRHH^Dept", fecha_limite: 2026-04-20],
+    };
+};

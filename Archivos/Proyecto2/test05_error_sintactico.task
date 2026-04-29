@@ -1,0 +1,21 @@
+TABLERO "Migración a la Nube - Infraestructura" {
+    COLUMNA "Planificación" {
+        tarea: "Inventario de servicios actuales" [prioridad: ALTA, responsable: "Arquitecto Cloud", fecha_limite: 2026-05-08],
+        tarea: "Seleccionar proveedor cloud" [prioridad: ALTA, responsable: "CTO", fecha_limite: 2026-05-10],
+        tarea: "Estimar costos de migración" [prioridad: ALTA, responsable: "FinOps", fecha_limite: 2026-05-12],
+        tarea: "Definir plan de rollback" [prioridad: ALTA, responsable: "Arquitecto Cloud", fecha_limite: 2026-05-14],
+        tarea: "Capacitar equipo en AWS" [prioridad: MEDIA, responsable: "RRHH", fecha_limite: 2026-05-20],
+    ;
+    COLUMNA "Ejecución" {
+        tarea: "Migrar base de datos principal" [prioridad: ALTA, responsable: "DBA", fecha_limite: 2026-06-01],
+        tarea: "Migrar servicios de autenticación" [prioridad: ALTA, responsable: "DevOps", fecha_limite: 2026-06-05],
+        tarea: "Migrar almacenamiento de archivos" [prioridad: MEDIA, responsable: "DevOps", fecha_limite: 2026-06-08],
+        tarea: "Configurar balanceador de carga" [prioridad: ALTA, responsable: "Network Admin", fecha_limite: 2026-06-10],
+        tarea: "Configurar auto-scaling groups" [prioridad: MEDIA, responsable: "DevOps", fecha_limite: 2026-06-12],
+    };
+    COLUMNA "Validación" {
+        tarea: "Pruebas de carga en producción" [prioridad: ALTA, responsable: "QA Lead", fecha_limite: 2026-06-20],
+        tarea: "Monitoreo de latencia post-migración" [prioridad: ALTA, responsable: "SRE", fecha_limite: 2026-06-22],
+        tarea: "Validar backups automáticos" [prioridad: ALTA, responsable: "DBA", fecha_limite: 2026-06-23],
+    };
+};

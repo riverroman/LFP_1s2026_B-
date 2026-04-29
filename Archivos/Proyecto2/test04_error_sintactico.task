@@ -1,0 +1,17 @@
+TABLERO "Rediseño Portal Corporativo" {
+    COLUMNA "Análisis" {
+        tarea: "Auditoría del sitio actual" [prioridad: ALTA, responsable: "Consultor", fecha_limite: 2026-05-10],
+        tarea: "Entrevistas con usuarios clave" [prioridad: ALTA, responsable: "UX Lead", fecha_limite: 2026-05-12],
+        tarea "Benchmarking de competidores" [prioridad: MEDIA, responsable: "Analista", fecha_limite: 2026-05-14],
+        tarea: "Definir KPIs del nuevo portal" [prioridad: MEDIA, responsable: "PM", fecha_limite: 2026-05-16],
+    };
+    COLUMNA "Diseño" {
+        tarea: "Arquitectura de información" [prioridad: ALTA, responsable: "UX Lead", fecha_limite: 2026-05-25],
+        tarea: "Diseño sistema de navegación" [prioridad: ALTA, responsable: "UX Lead", fecha_limite: 2026-05-28],
+        tarea: "Mockups de páginas principales" [prioridad: ALTA, responsable: "UI Designer", fecha_limite: 2026-06-02],
+    };
+    COLUMNA "Desarrollo" {
+        tarea: "Configurar CMS headless" [prioridad: ALTA, responsable: "Backend Dev", fecha_limite: 2026-06-10],
+        tarea: "Implementar diseño responsive" [prioridad: ALTA, responsable: "Frontend Dev", fecha_limite: 2026-06-20],
+    };
+};
